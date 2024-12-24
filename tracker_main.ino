@@ -71,11 +71,11 @@ unsigned long testTime = 1593789900;
 unsigned long timeNow = 0;
 
 // Used for Network Time Protocol (NTP)
-unsigned int localPort = 2390;         // local port to listen for UDP packets
-IPAddress timeServer(128, 138, 140, 44);  // time.nist.gov NTP server
-//const int NTP_PACKET_SIZE = 48;        // NTP time stamp is in the first 48 bytes of the message
-byte packetBuffer[NTP_PACKET_SIZE];    // buffer to hold incoming and outgoing packets
-WiFiUDP Udp;                           // A UDP instance to let us send and receive packets over UDP
+unsigned int localPort = 2390;               // local port to listen for UDP packets
+IPAddress timeServer(128, 138, 140, 44);     // time.nist.gov NTP server
+//const int NTP_PACKET_SIZE = 48;            // NTP time stamp is in the first 48 bytes of the message
+byte packetBuffer[NTP_PACKET_SIZE];          // buffer to hold incoming and outgoing packets
+WiFiUDP Udp;                                 // A UDP instance to let us send and receive packets over UDP
 
 // Initialize the Ethernet client library
 WiFiClient client;
