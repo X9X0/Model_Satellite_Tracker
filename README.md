@@ -1,5 +1,5 @@
 # SatelliteTracker
-This repository contains the code for alexchang0229's satellite tracker. It has been updated to work in accordance with celestrak.org's updated GET format. Debug output via serial updated to be a bit more verbose. TLE parsing and validation improvements.:<br />
+This repository contains the code for alexchang0229's satellite tracker. It has been updated to work in accordance with celestrak.org's updated GET format. Debug output via serial updated to be a bit more verbose. TLE parsing and validation improvements. https://youtu.be/SXegH9N-puk?si=tS1JZa5KSr-c6bVC<br />
 <img src="https://hackster.imgix.net/uploads/attachments/1156979/_ijWqYco4SG.blob?auto=compress%2Cformat&w=900&h=675&fit=min" width="600"> <br />
 Link to the project on Hackster.io: https://www.hackster.io/alex_chang/satellite-tracker-13a9aa <br />
 Link to post on Reddit: https://www.reddit.com/r/3Dprinting/comments/hr43pz/i_made_a_3d_printed_satellite_dish_that_tracks/
